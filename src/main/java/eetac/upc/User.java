@@ -38,4 +38,7 @@ public class User extends DAO{
 
         this.birthday = birthday;
     }
+    public String getPrimaryKey() {
+        return "id";
+    }
 }
